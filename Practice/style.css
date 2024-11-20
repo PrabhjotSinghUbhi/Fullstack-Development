@@ -1,0 +1,12 @@
+html{
+    font-size: 22px;
+}
+
+body{
+    background-color: #333;
+    color: aliceblue;
+}
+
+abbr { 
+    border-bottom: 1px dotted #000; cursor: help; 
+}
