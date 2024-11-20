@@ -1,1 +1,1 @@
-document.body.innerHTML = document.body.innerHTML.replace(/\b ECG \b/g , '<abbr title="Electrocardiogram">ECG</abbr>');
+document.body.innerHTML = document.body.innerHTML.replace(/\bECG\b/g , '<abbr title="Electrocardiogram">ECG</abbr>');
