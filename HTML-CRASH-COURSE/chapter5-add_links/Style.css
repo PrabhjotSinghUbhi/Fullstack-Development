@@ -1,0 +1,16 @@
+html{
+    font-size: 33px;
+}
+
+a{
+    color: navy;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
