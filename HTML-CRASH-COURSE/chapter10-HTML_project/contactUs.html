@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <header>
+        <section>
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="tacos.html">Home</a></li>
+                    <li><a href="tacos.html#menu">Our Menu</a></li>
+                    <li><a href="tacos.html#about">About TLS</a></li>
+                    <li><a href="ShopHours.html">Shop Hours</a></li>
+                </ul>
+            </nav>
+        </section>
+        <figure>
+            <img src="taco4.jpg" alt="taco image" height="300">
+            <figcaption>Little Taco Shop Tacos.</figcaption>
+        </figure>
+    </header> 
+    <main>
+        <section>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send us a message</legend>
+
+                    <p>
+                        <label for="name">Name : </label>
+                        <input type="text" name="name" id="name" placeholder="eg. John Doe" required autofocus>
+                    </p>
+
+                    <p>
+                        <label for="mail">Email : </label>
+                        <input type="text" name="Email" id="mail" placeholder="eg. john43@gmail.com" required>
+                    </p>
+
+                    <div>
+                        <label for="message">Your message : </label>
+                        <p>
+                            <textarea name="message" id="message" placeholder="your message is valuable to us." rows="5"
+                                cols="30"></textarea>
+                        </p>
+                    </div>
+
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                1234 Sunset Blvd <br>
+                Los Angeles, CA 90026 <br>
+                USA <br>
+                <br>
+                Phone: <a href="tel:+91 9877436553">+91 9877436553</a>
+            </address>
+        </section>
+        <div>
+            <br><br>
+            <a href="#top">Back To Top</a>
+        </div>
+    </footer>
+</body>
+
+</html>
