@@ -17,7 +17,7 @@ let y; // This is undefined.
 // null => stand alone value
 //undefined
 
-// Object. eg. Null is a Object.
+// Object. eg. Null is a Object.    
 
 console.log(name + " " +"is "+ typeof name);
 console.log(age + " " +"is  "+ typeof age);
