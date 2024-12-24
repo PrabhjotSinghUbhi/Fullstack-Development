@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: rgb(181, 223, 239);
+    display: flex;
+    justify-content: center;
+    top: 25vh;
+}
+
+.container {
+    border: 2px solid blue;
+    border-radius: 0.5em;
+    width: 260px;
+    height: 418px;
+    box-shadow: 87px 80px 9px rgb(149, 202, 225);
+}
+
+img {
+    border-radius: 0.5em;
+    margin: 5px;
+}
+
+.round {
+    padding: 2px 1.5px 1.px 20px;
+
+}
+
+.round p {
+    display: inline-block;
+    background-color: rgb(144, 220, 249);
+    border-radius: 1em;
+    width: 55px;
+    padding: 3.5px 3.5px 3.5px 3.5px;
+    text-align: center;
+    color: rgb(3, 145, 201);
+    font-size: 13px;
+}
+
+.content {
+    margin: 15px;
+    font-size: smaller;
+
+}
+
+.content h1 {
+    font-size: 24px;
+}
+
+p {
+    color: gray;
+}
+
+.ReadMore {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    background-color: rgb(144, 220, 249);
+    color: rgb(3, 145, 201);
+    border-radius: 1.5em;
+    padding: 10px ;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(10, 89, 121);
+    background-color: rgb(124, 211, 246);
+}
+
