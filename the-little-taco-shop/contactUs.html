@@ -4,76 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="icon" href="favicon.ico">
-<link rel="stylesheet" href="style.css">
+    <meta name="author" content="Dave Gray">
+    <meta name="description" content="Contact information for The Little Taco Shop">
+    <title>Contact Us - LTS</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
-     <header>
-        <section>
-            <h1>Contact Us</h1>
-            <nav>
-                <ul>
-                    <li><a href="tacos.html">Home</a></li>
-                    <li><a href="tacos.html#menu">Our Menu</a></li>
-                    <li><a href="tacos.html#about">About TLS</a></li>
-                    <li><a href="ShopHours.html">Shop Hours</a></li>
-                </ul>
-            </nav>
-        </section>
+    <header class="header">
+        <h1 class="header__h1">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="tacos.html">Home</a>
+                </li>
+                <li>
+                    <a href="tacos.html">Menu</a>
+                </li>
+                <li>
+                    <a href="ShopHours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
         <figure>
-            <img src="taco4.jpg" alt="taco image" height="300">
-            <figcaption>Little Taco Shop Tacos.</figcaption>
+            <img src="images/tacos_close_up_1000x649.png" alt="Little Taco Shop Tacos" title="Tacos ready to eat!"
+                width="1000" height="649">
+            <figcaption class="offscreen">
+                Little Taco Shop Tacos
+            </figcaption>
         </figure>
-    </header> 
-    <main>
-        <section>
-            <h2>Our Contact Form</h2>
-            <form action="https://httpbin.org/get" method="get">
-                <fieldset>
-                    <legend>Send us a message</legend>
+    </section>
 
-                    <p>
-                        <label for="name">Name : </label>
-                        <input type="text" name="name" id="name" placeholder="eg. John Doe" required autofocus>
-                    </p>
-
-                    <p>
-                        <label for="mail">Email : </label>
-                        <input type="text" name="Email" id="mail" placeholder="eg. john43@gmail.com" required>
-                    </p>
-
-                    <div>
-                        <label for="message">Your message : </label>
-                        <p>
-                            <textarea name="message" id="message" placeholder="your message is valuable to us." rows="5"
-                                cols="30"></textarea>
-                        </p>
-                    </div>
-
-                </fieldset>
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <section>
+    <main class="main">
+        <article class="main__article">
             <h2>Our Location</h2>
             <address>
-                1234 Sunset Blvd <br>
-                Los Angeles, CA 90026 <br>
-                USA <br>
-                <br>
-                Phone: <a href="tel:+91 9877436553">+91 9877436553</a>
+                555 Taco Temptation Lane, Suite T<br>
+                Kansas City, MO 55555-5555
+                <br><br>
+                Phone: <a href="tel:+5555555555">555-555-5555</a>
             </address>
-        </section>
-        <div>
-            <br><br>
-            <a href="#top">Back To Top</a>
-        </div>
+        </article>
+        <hr>
+        <article class="main__article contact">
+            <h2 class="contact__h2">Our Contact Form</h2>
+
+            <form action="https://httpbin.org/get" method="get" class="contact__form">
+                <fieldset class="contact__fieldset">
+                    <legend class="offscreen">Send Us A Message</legend>
+                    <p class="contact__p">
+                        <label class="contact__label" for="name">Name:</label>
+                        <input class="contact__input" type="text" name="name" id="name" placeholder="your name"
+                            required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="email">Email:</label>
+                        <input class="contact__input" type="email" name="email" id="email" placeholder="your email"
+                            required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="message">Your Message:</label>
+                        <br>
+                        <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10"
+                            placeholder="Type your message here"></textarea>
+                    </p>
+                </fieldset>
+                <button class="contact__button" type="submit">Send</button>
+                <button class="contact__button" type="reset">Reset</button>
+            </form>
+        </article>
+    </main>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Little Taco Shop</span>
+        </p>
     </footer>
 </body>
 
