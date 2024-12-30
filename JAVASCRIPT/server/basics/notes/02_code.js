@@ -18,7 +18,7 @@ let y = Symbol("123");
 console.log(x === y);
 
 let speedOfLight = 299792458n; // trialing n will convert into BigInt.
-console.log("To large variables can be stored in "+typeof speedOfLight);
+console.log("To large variables can be stored in " + typeof speedOfLight);
 
 /*JavaScript is a dynamically typed language. This means that the type of a variable is determined at runtime, rather than at compile time. You don't need to specify the type of a variable when you declare it, and a variable can hold values of different types at different points in time. */
 

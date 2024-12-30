@@ -1,0 +1,21 @@
+.logo {
+    /* background-color: yellowgreen;
+    width: 45px;
+    height: 50px; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+}
+
+.item {
+    list-style-type: none;
+    padding: 0px 50px;
+}
+
+
