@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating elements in DOM</title>
+</head>
+
+<body style="color: aliceblue; background-color: #212121;">
+
+</body>
+<script>
+    const temp = document.createElement("div");
+    temp.class = 'divMy';
+    temp.setAttribute('tittle', 'generated tittle');
+    temp.style.backgroundColor = "orange";
+    temp.style.color = "#333";
+    temp.style.padding = "5px";
+    temp.innerText = "East aur West Hitesh sir is best"
+    // const addText = document.createTextNode("East aur West Hitesh Sir is the best.")
+    // temp.appendChild(addText);
+    document.body.appendChild(temp);
+</script>
+
+</html>

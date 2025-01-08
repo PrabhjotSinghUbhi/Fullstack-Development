@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | edit and remove elements.</title>
+</head>
+
+<body style="background-color: #333; color: #fff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    const val1 = ((langName) => {
+        const val2 = document.createElement('li');
+        val2.innerHTML = langName;
+        // You need to select the element first.
+        document.querySelector('.language').appendChild(val2)
+    })
+    val1("ruby");
+    val1("python")
+    val1("Tailwind")
+    // An optimized way to do the similar task :
+    function optimizedWay(langName) {
+        let val1 = document.createElement('li')
+        val1.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(val1)
+    }
+    optimizedWay("Typescript")
+    optimizedWay("golang")
+    // Using appendChild is more professional than innerHTML.
+
+    // EDIT.
+
+    const secondLang = document.querySelector('li:nth-child(2)') 
+    // secondLang.innerHTML = "change" 
+    const new_li = document.createElement("li");
+    new_li.textContent = "mojo"
+    secondLang.replaceWith(new_li)
+
+    //EDIT
+
+    const firstLang = document.querySelector('li:first-child')
+    firstLang.outerHTML = '<li>Typescript</li>'
+
+    // REMOVE
+
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+
+</script>
+
+</html>
