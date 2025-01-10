@@ -15,16 +15,19 @@
     background-color: #212121;
 }
 
-.box1{
+.box1 {
     background-color: #808080;
 }
-.box2{
+
+.box2 {
     background-color: #fff;
 }
-.box3{
+
+.box3 {
     background-color: #000ff0;
 }
-.box4{
+
+.box4 {
     background-color: #fff000;
 }
 
@@ -42,7 +45,7 @@
     margin: 5px;
 }
 
-.box{
+.box {
     cursor: pointer;
 }
 
@@ -110,4 +113,58 @@ a {
 
 .home-main {
     margin: 15px;
+}
+
+.bmi-body {
+    background-color: #808080;
+}
+
+.bmi-main {
+    /* border: 2px solid #fff; */
+    box-shadow: 5px 5px 5px #c6c1c1;
+    background-color: #333;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.bmi-heading {
+    color: #fff;
+    font-size: 200%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bmi-btn {
+    text-align: center;
+    font-size: larger;
+    font-family: monospace;
+    font-weight: bolder;
+    color: #fff;
+}
+
+input {
+    background-color: #eee;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+}
+
+#btn {
+    font-size: large;
+    background-color: #212;
+    color: #fff;
+    padding: 5px;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+.btn1,
+.btn2 {
+    /* border:2px solid #000ff0; */
+    padding: 10px;
 }
