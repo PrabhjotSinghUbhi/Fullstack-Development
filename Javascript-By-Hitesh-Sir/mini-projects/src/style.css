@@ -192,3 +192,29 @@ input {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: none;
 }
+
+#dc-body {
+    background-color: #212121;
+    color: #fff;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39vh;
+}
+
+#clock {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: orange;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
