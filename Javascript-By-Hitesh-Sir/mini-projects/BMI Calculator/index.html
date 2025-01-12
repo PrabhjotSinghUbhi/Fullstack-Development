@@ -20,20 +20,34 @@
         <div class="bmi-heading">
             BMI Calculator
         </div>
-        <div class="bmi-btn">
-            <div class="btn1">
-                <label for="height">Height in Cm: </label>
-                <input type="text">
-            </div>
-            <div class="btn2">
-                <label for="height">Weight in Kg: </label>
-                <input type="text">
-            </div>
-            <div class="btn3">
-                <button id="btn">Calculate</button>
+        <form>
+            <div class="bmi-btn">
+                <div class="btn1">
+                    <label for="height">Height in Cm: </label>
+                    <input type="text" id="height">
+                </div>
+                <div class="btn2">
+                    <label for="weight">Weight in Kg: </label>
+                    <input type="text" id="weight">
+                </div>
+                <div class="btn3">
+                    <button id="btn" type="submit">Calculate</button>
+                </div>
+                <hr>
+                <div id="result"></div>
+        </form>
+        <hr>
+        <div class="bmi-guide">
+            <h3 class="guide-heading">Bmi Weight Guide</h3>
+            <div class="guide">
+                <p>underweight = less than 18.6</p>
+                <p>normal Range = 18.6 and 24.9</p>
+                <p>overweight = greater than 24.9</p>
             </div>
         </div>
+        </div>
     </main>
+    <script src="bmijs.js"></script>
 </body>
 
 </html>

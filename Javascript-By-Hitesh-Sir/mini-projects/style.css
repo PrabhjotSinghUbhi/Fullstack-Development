@@ -71,6 +71,7 @@
     padding: 5px;
     font-weight: bold;
     border-bottom: 2px solid black;
+    position: sticky;
 }
 
 a {
@@ -87,6 +88,7 @@ a {
     text-align: center;
     margin: 5px 10px;
     box-shadow: 5px 5px 0px #333;
+    position: sticky;
 }
 
 .home-projects-link {
@@ -161,10 +163,32 @@ input {
     padding: 5px;
     border-radius: 9px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .btn1,
 .btn2 {
     /* border:2px solid #000ff0; */
     padding: 10px;
+}
+
+.guide-heading {
+    margin: 4px 4px;
+}
+
+.bmi-guide {
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+.guide {
+    font-size: smaller;
+    padding: 10px 0px 10px 0;
+}
+
+#result {
+    margin: 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: none;
 }
