@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="/mini-projects/src/style.css">
+</head>
+
+<body style="background-color: #212121; color: #fff;">
+    <header class="home-header">
+        <nav class="home-nav">
+            <a href="/mini-projects/src/index.html" class="home-home-link" id="nav-element"
+                style="background-color: rgb(202, 199, 199);">Home</a>
+            <a href="" class="home-channel-link-2" id="nav-element">Youtube</a>
+        </nav>
+    </header>
+    <main class="guess-main">
+        <div class="parent">
+            <div class="guess-heading">
+                <h1 style="font-family: monospace;">Number Guessing game</h1>
+            </div>
+            <div class="hero-guess" style="background-color: #333;">
+                <p class="guess-p">try and guess a random number between 1 and 100. you have 10 attempts to guess the
+                    right
+                    number.</p>
+                <h1 class="heading-2" style="font-family: cursive;">
+                    Guess a Number
+                </h1>
+                <form action="">
+                    <div class="input-guess">
+                        <label for="input"></label><input type="text" id="id-input">
+                    </div>
+                    <div class="submit-div">
+                        <label for="Submit-Guess"></label><input type="submit" value="Submit Guess" id="submit-btn">
+                    </div>
+                </form>
+                <div class="previous-guess">
+                    Previous Guess: <span id="inin">&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                <div class="remaining">
+                    Guess Remaining: <span id="g-remain"></span>
+                </div>
+                <div class="result"></div>
+            </div>
+        </div>
+    </main>
+    <script src="guess.js"></script>
+</body>
+
+</html>

@@ -3,14 +3,13 @@ const form = document.querySelector('form');
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     document.getElementById('result').style.display = "inherit"
-    document.getElementById('result').style.display = "inherit"
     const height = parseFloat(document.querySelector('#height').value);
     console.log(height);
     const weight = parseFloat(document.querySelector('#weight').value);
     console.log(weight);
     const results = document.querySelector('#result');
 
-    const BMI = weight / (height * height)
+    const BMI = weight / ((height * height)*100)
 
     if (isNaN(height) || height < 0 || height === "") {
 
