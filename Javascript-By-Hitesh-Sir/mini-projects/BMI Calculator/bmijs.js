@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
     console.log(weight);
     const results = document.querySelector('#result');
 
-    const BMI = weight / ((height * height)*100)
+    const BMI = weight / ((height * height) * 100)
 
     if (isNaN(height) || height < 0 || height === "") {
 

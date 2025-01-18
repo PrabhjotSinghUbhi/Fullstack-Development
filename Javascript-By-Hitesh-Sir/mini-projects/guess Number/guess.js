@@ -29,4 +29,4 @@ form.addEventListener('submit', function (e) {
         gameContinue == false;
         document.querySelector('.result').innerHTML = '😵😵You Lost'
     }
-})12
+})
