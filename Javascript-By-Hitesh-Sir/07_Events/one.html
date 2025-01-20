@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+
+<body style="background-color: #333;color: aliceblue;display: flex;">
+    <ul class="list">
+        <li id="item item1">
+            <figure class="one">
+                <img src="pexels-dilara-988605972-30177788.jpg" alt="one" height="200" width="auto">
+            </figure>
+        </li>
+        <li id="item item2">
+            <figure class="one">
+                <img src="pexels-matthew-jesus-468170389-30212930.jpg" alt="one" height="200">
+            </figure>
+        </li>
+        <li id="item item3">
+            <figure class="one">
+                <img src="pexels-nazila-30129096.jpg" alt="one" height="200">
+            </figure>
+        </li>
+        <li id="item item4">
+            <figure class="one">
+                <img src="pexels-yuan-cao-250464215-29890858.jpg" alt="one" height="200">
+            </figure>
+        </li>
+        <li>
+            <a href="https://www.google.com">Google</a>
+        </li>
+    </ul>
+    <script>
+        // document.getElementById('item1').onclick = (() => (alert("Hello World.")))
+        // document.getElementById('item1').addEventListener('click', (e) => {
+        //     alert("hi world");
+        //     e.stopPropagation();
+        // }, false)
+        // document.querySelector('.list').addEventListener('click', (e) => {
+        //     alert("hi prince");
+        //     //  ;
+        // }, false)
+
+        document.querySelector('.list').addEventListener('click', function (e) {
+            let removeIt = e.target.parentNode.parentNode;
+            console.log(removeIt.tagName);
+            removeIt.remove()
+        })
+
+    </script>
+</body>
+
+</html>
