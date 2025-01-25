@@ -292,3 +292,10 @@ a {
     /* display: none; */
     padding: 5px;
 }
+
+#start,
+#end {
+    margin: 5px;
+    padding: 0 5px;
+    font-size: large;
+}

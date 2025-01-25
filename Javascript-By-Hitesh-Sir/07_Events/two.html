@@ -11,8 +11,27 @@
     <h1>Prabhjot Singh</h1>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
+    <div id="time" style="display: flex; flex-flow: column;">
+        <ul id="list">
+            <li></li>
+        </ul>
+    </div>
     <script>
+
+        const stop_btn = document.getElementById('stop');
+
+        const printTime = setInterval(() => {
+            let myDate = new Date();
+            const div = document.createElement('li');
+            div.innerHTML = myDate.toLocaleTimeString();
+            document.getElementById('list').appendChild(div);
+        }, 5000);
+
+        stop_btn.addEventListener('click', function () {
+            clearInterval(printTime);
+        });
 
     </script>
 </body>
+
 </html>
