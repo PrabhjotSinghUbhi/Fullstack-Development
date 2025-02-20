@@ -19,10 +19,10 @@ let y; // This is undefined.
 
 // Object. eg. Null is a Object.    
 
-console.log(name + " " +"is "+ typeof name);
-console.log(age + " " +"is  "+ typeof age);
-console.log(consent + " " +"is  "+ typeof consent);
-console.log("isLoggedIn" +"is   "+ " " + typeof isLoggedIn);
-console.log("x" + " " +"is  "+ typeof null);
-console.log("y" + " " +"is  "+ typeof y);
+console.log(`${name} is ${typeof name}`);
+console.log(`${age} is ${typeof age}`);
+console.log(`${consent} is ${typeof consent}`);
+console.log(`${isLoggedIn} is ${typeof isLoggedIn}`);
+console.log(`${x} is  ${typeof null}`);
+console.log(`${y} is ${typeof y}}`);
 
