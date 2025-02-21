@@ -27,8 +27,8 @@
 
 
 
-function calculateCartPrices(val1,val2,...num1){
+function calculateCartPrices(_val1, _val2, ...num1) {
     return num1
 }
 
-console.log(calculateCartPrices(100,200,300,499))
+console.log(calculateCartPrices(100, 200, 300, 499))

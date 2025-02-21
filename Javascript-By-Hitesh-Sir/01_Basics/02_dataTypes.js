@@ -25,4 +25,3 @@ console.log(`${consent} is ${typeof consent}`);
 console.log(`${isLoggedIn} is ${typeof isLoggedIn}`);
 console.log(`${x} is  ${typeof null}`);
 console.log(`${y} is ${typeof y}}`);
-

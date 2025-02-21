@@ -16,9 +16,9 @@ let arr = new Array(1, 2, 3, 4, 5)
     *Some Methods of Arrays:- 
         ! arr.push(num) --> Used to add a element in the array at the end.
         ! arr.pop() --> Removes the last element of the array.
-        ! arr.unshift(num) --> adds a element to start a element.
+        ! arr.unshift(num) --> adds a element to start of element.
         ! arr.shift() --> removes a element from start of the element.
-        ! arr.includes(num) --> 1. Checks weather the number is present in the arr or the not?
+        ! arr.includes(num) --> 1. Checks weather the number is present in the arr or the not ?
         !                   --> 2.  Returns a boolean value.
 
         ! arr.indexof(num) --> returns the index of a num.

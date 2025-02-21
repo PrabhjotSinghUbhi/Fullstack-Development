@@ -1,4 +1,4 @@
-// Nested Objects.
+//^ Nested Objects.
 let regular = {
     name: {
         fullName: {
@@ -13,24 +13,42 @@ let regular = {
         }
     }
 }
-console.log(regular.name.fullName.name1);
+// console.log(regular.name.fullName.name1);
 
- 
-
-
-
-
-const Karan = {
-    occupation:"Doctor"
+//? Creating a Object with a key and Value.
+const Karen = {
+    occupation: "Doctor"
 }
 
-console.log(Karan.occupation)
+//? Accessing the value through its key.
+// console.log(Karen.occupation)
 
-const {occupation} = Karan;
-console.log(occupation)
+/*
+!   DESTRUCTURING IN JAVASCRIPT.
+^       -> IT IS A WAY TO EXTRACT VALUES FROM THE ARRAY OR THE OBJECT AND STORE THEM IN A VARIABLE IN A SHORTER AND READABLE FORMAT.
 
-const {occupation:job} = Karan;
+const info = {
+    name : "Prabhjot Singh",
+    Role : "SDE"
+    }
 
+?       > NORMAL METHOD TO ACCESS THINGS
+            temp = info.name;
+            temp2 = info.Role;
+
+?       > NOW THE DESTRUCTURING WAY
+            const {name , Role} = person;
+            name;
+            Role;
+&            NAME AND ROLE DO NOT REQUIRE THE DOT OPERATOR NOW.
+ */
+
+//? Object destructuring is happening
+const { occupation } = Karen;
+// console.log(occupation)
+
+//? The value of occupation is stored in job variables.
+const { occupation: job } = Karen;
 console.log(job)
 
-console.log(Karan)
+console.log(Karen)

@@ -20,18 +20,19 @@ const obj = {
     [mySym]: "myKey1"   //right method.
 }
 
-// console.log(typeof mySym);
+console.log(typeof mySym);
 
 // In Object:
 let object = {
     caring:"very much"
 }
-// Object.freeze(object);
+
+//! Object.freeze(object);
 // object.caring = "not so much"
 // caring value will not change.
 // console.log(object)
 
-// Function like Greeting can be represented as value in object.
+//^ Function like Greeting can be represented as value in object.
 object.greeting = function(num){
     num = 34;
     console.log(`hello ${num}`);

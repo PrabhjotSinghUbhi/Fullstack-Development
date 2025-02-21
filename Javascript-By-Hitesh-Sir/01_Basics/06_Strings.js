@@ -16,7 +16,7 @@ let str = new String("God is Omnipresent");
 console.log(str[4]);
 
 /*
-    Some common Functions that are applicable in Stings are:
+!    Some common Functions that are applicable in Stings are:
         ? 1. str.length().
         ? 2. str.toUpperCase().
         ? 3. str.toLowerCase().
