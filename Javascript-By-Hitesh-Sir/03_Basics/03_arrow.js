@@ -22,3 +22,9 @@ user.username = "Prince"
 const chai = () => {
     console.log("hello Prabh")
 }
+
+function name(params) {
+
+}
+
+console.log(arr())

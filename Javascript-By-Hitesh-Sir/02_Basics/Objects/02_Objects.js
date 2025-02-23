@@ -30,7 +30,7 @@ const Karen = {
 const info = {
     name : "Prabhjot Singh",
     Role : "SDE"
-    }
+}
 
 ?       > NORMAL METHOD TO ACCESS THINGS
             temp = info.name;

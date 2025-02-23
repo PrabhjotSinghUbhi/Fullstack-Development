@@ -19,22 +19,25 @@
         // You need to select the element first.
         document.querySelector('.language').appendChild(val2)
     })
-    val1("ruby");
+
+    val1("ruby")
     val1("python")
     val1("Tailwind")
+
     // An optimized way to do the similar task :
     function optimizedWay(langName) {
         let val1 = document.createElement('li')
         val1.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(val1)
     }
+
     optimizedWay("Typescript")
     optimizedWay("golang")
-    // Using appendChild is more professional than innerHTML.
+    //! Using appendChild is more professional than innerHTML.
 
     // EDIT.
 
-    const secondLang = document.querySelector('li:nth-child(2)') 
+    const secondLang = document.querySelector('li:nth-child(2)')
     // secondLang.innerHTML = "change" 
     const new_li = document.createElement("li");
     new_li.textContent = "mojo"

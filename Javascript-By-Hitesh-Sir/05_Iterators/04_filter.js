@@ -1,3 +1,10 @@
+//! filter method
+
+/*
+^ The filter method in JavaScript is used to create a new array with all elements that pass a test implemented by a provided function. It’s commonly used for selecting a subset of items from an array based on a condition.
+ */
+
+
 coding = ["js", "ruby", "java", "python", "cpp"]
 
 const values = coding.forEach(Element => {
@@ -17,3 +24,6 @@ const myFavNUms = myNums.filter((i) => {
 })
 
 console.log(myFavNUms);
+
+
+
