@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 
 class Arrays_and_Strings {
     public static void main(String[] args) {
@@ -9,16 +9,16 @@ class Arrays_and_Strings {
         // }
 
         // ! Now lets about Strings in java.
-        String name = "Prabhjot Singh";
-        String name3 = "Prabhjot Singh";
+        // String name = "Prabhjot Singh";
+        // String name3 = "Prabhjot Singh";
 
-        String name2 = new String("Prabhjot Singh");
+        // String name2 = new String("Prabhjot Singh");
 
         // Will give false.
-        System.out.println(name == name2);
+        // System.out.println(name == name2);
 
         // Will give True.
-        System.out.println(name == name3);
+        // System.out.println(name == name3);
 
     }
 }

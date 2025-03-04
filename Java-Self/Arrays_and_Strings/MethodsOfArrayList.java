@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.stream.IntStream;;
+;
 
 public class MethodsOfArrayList {
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
+        // ArrayList<Integer> list = new ArrayList<>();
         /*
          * Here we are going to discuss some common methods of ArrayList.
          * ?Adding Elements
@@ -34,8 +32,8 @@ public class MethodsOfArrayList {
          * clone()
          * ArrayList<String> clonedList = (ArrayList<String>) list.clone();
          */
-        int[] candies = { 2, 3, 5, 1, 3 };
-        IntStream stream = Arrays.stream(candies);
+        // int[] candies = { 2, 3, 5, 1, 3 };
+        // IntStream stream = Arrays.stream(candies);
 
     }
 }
