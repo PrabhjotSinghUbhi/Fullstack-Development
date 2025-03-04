@@ -24,6 +24,8 @@ public class StringMethods {
 
         System.out.println(Arrays.toString(abc));
 
-        
+        String temp  = s1.trim();
+        System.out.println(temp);
+
     }
 }
