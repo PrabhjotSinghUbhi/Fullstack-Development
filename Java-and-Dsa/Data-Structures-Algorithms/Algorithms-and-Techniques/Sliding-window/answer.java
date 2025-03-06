@@ -20,7 +20,7 @@ public class answer {
         for (int i = 0; i < window; i++) {
             maxx += arr[i];
         }
-        System.out.println(maxx);
+        // System.out.println(maxx);
 
         int temp = maxx;
 

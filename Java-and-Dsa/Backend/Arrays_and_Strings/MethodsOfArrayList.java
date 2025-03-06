@@ -5,30 +5,38 @@ public class MethodsOfArrayList {
         // ArrayList<Integer> list = new ArrayList<>();
         /*
          * Here we are going to discuss some common methods of ArrayList.
-         * ?Adding Elements
+
+          ?Adding Elements
          * add(__value__) to end.
          * add(__index__, __value__) to specific index.
-         * ?Accessing Elements
+         
+         ?Accessing Elements
          * get(__index__)
-         * ?Updating Elements
+         
+         ?Updating Elements
          * set(__index__, __value__)
          * ?Removing Elements
          * remove(__index__)
          * remove(__Object__)
          * eg - list.remove(4)
          * clear() - clear all elements.
-         * ?Check Size
+         * 
+         ?Check Size
          * size()
-         * ?Iterating Over Elements
+         
+         ?Iterating Over Elements
          * list.forEach(System.out::println)
-         * ?Sorting
+         * 
+         ?Sorting
          * list.sort(Comparator.naturalOrder());
-         * ?Convert to Array.
+         
+          ?Convert to Array.
          * Object[] array = list.toArray();
          * String[] strArray = list.toArray(new String[0]);
          * ?Check if the array is Empty.
          * isEmpty();
-         * ?Cloning
+         
+          ?Cloning
          * clone()
          * ArrayList<String> clonedList = (ArrayList<String>) list.clone();
          */
