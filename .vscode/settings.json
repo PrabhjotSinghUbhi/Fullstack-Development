@@ -8,6 +8,7 @@
         "humpty",
         "leetcode",
         "Macchio",
+        "maxx",
         "Mayagi",
         "notkarate",
         "prabh",
@@ -15,5 +16,6 @@
         "sherians",
         "Sheryians",
         "sinoatrial"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
