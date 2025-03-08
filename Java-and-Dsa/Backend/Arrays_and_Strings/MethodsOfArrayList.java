@@ -33,7 +33,8 @@ public class MethodsOfArrayList {
           ?Convert to Array.
          * Object[] array = list.toArray();
          * String[] strArray = list.toArray(new String[0]);
-         * ?Check if the array is Empty.
+         
+         ?Check if the array is Empty.
          * isEmpty();
          
           ?Cloning

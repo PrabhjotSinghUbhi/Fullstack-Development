@@ -27,5 +27,10 @@ public class StringMethods {
         String temp  = s1.trim();
         System.out.println(temp);
 
+        String newString = "Drama";
+        System.out.println(Arrays.toString(newString.toCharArray()));
+
+        Integer a = 899;
+        a.
     }
 }
