@@ -10,6 +10,10 @@ class Intro {
         System.out.println(Prince.name);
         System.out.println(Prince.marks);
         System.out.println(Prince.yes);
+
+        //Constructor Student Prince = new Student()  '()' is the constructor;
+        //() constructors are special function that are automatically created when new objects are created.
+
     }
 
     static class Student {
