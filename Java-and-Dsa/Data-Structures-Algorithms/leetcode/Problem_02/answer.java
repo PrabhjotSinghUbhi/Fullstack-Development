@@ -11,7 +11,8 @@ public class answer {
         int[] nums = {}; // Input array
         int[] expectedNums = {}; // The expected answer with correct length
 
-        int k = removeDuplicates(nums); // Calls your implementation
+        int k = removeDuplicates(nums); // Calls your implementation 
+        //Still pending
 
         assert k == expectedNums.length;
         for (int i = 0; i < k; i++) {
