@@ -13,7 +13,6 @@ public class wrapperExample {
 
         System.out.println("Num 1 is : " + num1 + " and Num 2 is: " + num2);
 
-        
     }
 
     static void swap(int a, int b) {
