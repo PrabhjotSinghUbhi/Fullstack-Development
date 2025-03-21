@@ -1,3 +1,5 @@
+package OOPS;
+
 class Mobile {
 
     // This are the instance variables.

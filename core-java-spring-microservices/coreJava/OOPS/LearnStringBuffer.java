@@ -1,3 +1,5 @@
+package OOPS;
+
 public class LearnStringBuffer {
     public static void main(String[] args) {
         StringBuffer sb = new StringBuffer("prince");
@@ -11,6 +13,5 @@ public class LearnStringBuffer {
          * StringBuilder is thread Safe but StringBuffer is not.
          */
 
-        
     }
 }

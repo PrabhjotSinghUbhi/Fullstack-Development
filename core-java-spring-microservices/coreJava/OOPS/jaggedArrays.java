@@ -1,3 +1,4 @@
+package OOPS;
 public class jaggedArrays {
     public static void main(String[] args) {
 
