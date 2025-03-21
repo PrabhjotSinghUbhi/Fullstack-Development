@@ -33,7 +33,7 @@ public class staticKeyword {
 
         obj2.name = "Solo";
 
-        //Changes for both.
+        // Changes for both.
         obj1.show();
         obj2.show();
     }

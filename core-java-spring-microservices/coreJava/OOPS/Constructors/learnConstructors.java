@@ -21,6 +21,11 @@ public class learnConstructors {
 
         System.out.println("\nCopied Car:");
         car2.display();
+
+        // To demonstrate the working of this keyword
+        Books myBook = new Books();
+        System.out.println(myBook.bookName);
+        System.out.println(myBook.shelfNo);
     }
 }
 
@@ -52,5 +57,19 @@ class Car {
         System.out.println("Brand: " + brand);
         System.out.println("Speed: " + speed);
     }
+}
 
+class Books {
+    String bookName;
+    int shelfNo;
+
+    public Books(String bookName, int shelfNo) {
+        this.bookName = bookName;
+        this.shelfNo = shelfNo;
+    }
+
+    public Books() {
+        // This 'this' keyword is calling another constructor.
+        this("Art of War", 34);
+    }
 }
