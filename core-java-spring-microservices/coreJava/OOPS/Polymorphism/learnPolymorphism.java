@@ -61,6 +61,8 @@ public class learnPolymorphism {
          * runtime, the program decides which version to use based on the actual object.
          */
 
+        //  This is also called Dynamic Method Dispatch.
+
         // Example.
         Animal pet = new Animal();
         pet.roar(); // the show that is in Animal.

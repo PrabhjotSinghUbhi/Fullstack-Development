@@ -1,4 +1,4 @@
-package OOPS;
+package Strings;
 
 public class LearnStringBuffer {
     public static void main(String[] args) {
