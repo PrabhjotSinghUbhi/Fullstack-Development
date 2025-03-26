@@ -8,6 +8,12 @@ package Exceptions;
  * Logical Error -> Bugs or logical mistakes => removed during Testing
  */
 
+/*
+ * Important Points to note.
+ -> try ends as it detects the first error
+ -> in try block we can throw our own errors for a specific condition.
+ -> our Own exception can be made and it should be a child of Exception class.
+ */
 public class Error {
     public static void main(String[] args) {
 
@@ -30,11 +36,18 @@ public class Error {
         int num1 = 0;
         int num2 = 0;
 
+        int j = 5;
+
         // Now we know it might produce a runtime error.
         try {
+            if (j == 5) {
+                throw new PrabhjotException("Prabhjot Exception Invoked");
+            }
             num2 = 43 / num1;
         } catch (ArithmeticException e) {
             System.out.println(e.getLocalizedMessage());
+        } catch (Exceptions.PrabhjotException e) {
+            System.out.println(e);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -42,5 +55,11 @@ public class Error {
         System.out.println(num2);
         System.out.println("NOW IT LOOKS GOOD :-)");
 
+    }
+}
+
+class PrabhjotException extends Exception {
+    PrabhjotException(String message) {
+        System.out.println(message);
     }
 }
