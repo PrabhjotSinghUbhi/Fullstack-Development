@@ -4,5 +4,5 @@
 /**
  * 
  */
-module JUnit {
+module JUnit_04 {
 }
