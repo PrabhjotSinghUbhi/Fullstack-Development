@@ -12,6 +12,8 @@ class PurschaseCourseTest {
 		
 		pp.proceedWithPurchase(new JUnitCourse());
 		
+		//Some other methods that were taught are aesertFalse, assertTrue etc.
+		
 	}
 
 }
