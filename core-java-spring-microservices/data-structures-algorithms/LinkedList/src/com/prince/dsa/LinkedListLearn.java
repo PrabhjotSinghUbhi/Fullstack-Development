@@ -56,7 +56,7 @@ public class LinkedListLearn {
 		node.next = null; // by default
 
 		node.next = head;// since we need to add element at start.
-
+		
 		head = node;// now the head will be at this node.
 	}
 
@@ -89,13 +89,13 @@ public class LinkedListLearn {
 		if (index == 0) {
 			head = head.next;
 		} else {
-			Node n = head;
+			Node temp = head;
 			Node n1 = null;
 			for (int i = 0; i < index - 1; i++) {
-				n = n.next;
+				temp = temp.next;
 			}
-			n1 = n.next;
-			n.next = n1.next;
+			n1 = temp.next;
+			temp.next = n1.next;
 			System.out.println("n1 is " + n1.data + " was deleted");
 		}
 	}
