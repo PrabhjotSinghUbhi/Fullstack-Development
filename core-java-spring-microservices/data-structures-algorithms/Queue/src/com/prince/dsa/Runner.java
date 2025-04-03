@@ -10,7 +10,7 @@ public class Runner {
 		q.enQueue(5);
 		
 		q.deQueue();
-		q.deQueue()	;
+		q.deQueue();
 		
 		q.show();
 	}
