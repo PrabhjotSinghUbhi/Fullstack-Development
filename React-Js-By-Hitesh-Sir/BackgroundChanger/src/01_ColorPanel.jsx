@@ -3,53 +3,53 @@ import { useState } from 'react'
 
 function ColorPanel() {
 
-  let [counter, setCounter] = useState({background : "black"})
+  let [color, setColor] = useState({background : "black"})
 
   function activateRed() {
-    setCounter({background : "red"})
+    setColor({background : "red"})
   }
 
   function activateGreen() {
-    setCounter({background : "green"})
+    setColor({background : "green"})
   }
 
   function activateBlue() {
-    setCounter({background : "blue"})}
+    setColor({background : "blue"})}
 
   function activateOlive() {
-    setCounter({background : "#808000"})
+    setColor({background : "#808000"})
   }
   function activateGray() {
-   setCounter({background : "#333"}) 
+   setColor({background : "#333"}) 
   }
 
   function activateYellow() {
-   setCounter({background : "yellow"})
+   setColor({background : "yellow"})
   }
 
   function activatePink() {
-   setCounter({background : "pink"}) 
+   setColor({background : "pink"}) 
   }
 
   function activatePurple() {
-   setCounter({background : "purple"})
+   setColor({background : "purple"})
   }
 
   function activateLavender() {
-    setCounter({background : "#E6E6FA"})
+    setColor({background : "#E6E6FA"})
   }
 
   function activateWhite() {
-   setCounter({background : "white"}) 
+   setColor({background : "white"}) 
   }
 
   function activateBlack() {
-   setCounter({background : "black"}) 
+   setColor({background : "black"}) 
   }
 
 
   return (
-    <div className='min-h-screen min-w-screen text-slate-50 absolute' style={counter}>
+    <div className='min-h-screen min-w-screen text-slate-50 absolute' style={color}>
         <div className='flex gap-4 border py-2 px-1.5 left-1/4 absolute bottom-0  mb-16 justify-center text-center rounded-2xl '>
           <button className='active:animate-bounce border px-3 py-1.5 rounded-xl bg-red-500'  onClick={activateRed}>Red</button>
           <button className='active:animate-bounce border px-3 py-1.5 rounded-xl bg-green-500' onClick={activateGreen}>Green</button>

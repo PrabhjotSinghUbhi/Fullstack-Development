@@ -1,10 +1,11 @@
 
-import Panel from './ColorPanel'
-function App() {
-  
+import Panel from './01_ColorPanel'
+import Panel02 from './02_ColorPanel'
 
+function App() {
   return ( 
-      <Panel />
+      // <Panel />
+      <Panel02 />
   )
 }
 
