@@ -19,6 +19,8 @@ function ColorPanel() {
     { name: "Black", value: "black", tailwind: "bg-black" }
   ];
   
+  // Scale pop up animation using gsap
+  
 
   return (
     <div className="min-h-screen min-w-screen text-slate-50 absolute" style = {colored}>
