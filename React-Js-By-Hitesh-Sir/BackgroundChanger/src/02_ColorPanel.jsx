@@ -23,8 +23,8 @@ function ColorPanel() {
   
 
   return (
-    <div className="min-h-screen min-w-screen text-slate-50 absolute" style = {colored}>
-        <div className="flex gap-4 border py-2 px-1.5 left-1/4 absolute bottom-0  mb-16 justify-center text-center rounded-2xl ">
+    <div className="flex justify-center min-h-screen min-w-screen text-slate-50 overflow-hidden " style = {colored}>
+        <div className="flex gap-4 border py-2 mt-16 justify-center text-center rounded-2xl ">
            {
             colors.map((color) => (
               <button 
