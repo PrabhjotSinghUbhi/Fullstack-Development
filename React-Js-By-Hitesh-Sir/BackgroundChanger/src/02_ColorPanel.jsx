@@ -24,11 +24,11 @@ function ColorPanel() {
 
   return (
     <div className="flex justify-center min-h-screen min-w-screen text-slate-50 overflow-hidden " style = {colored}>
-        <div className="flex gap-4 border py-2 mt-16 justify-center text-center rounded-2xl ">
+        <div className="flex gap-4 py-2 mt-16 justify-center text-center rounded-2xl ">
            {
             colors.map((color) => (
               <button 
-                className={`active:animate-bounce border px-3 py-1.5 rounded-xl ${color.tailwind} transition-transform hover:scale-130`}
+                className={`active:animate-bounce w-20 text-center border px-3 py-1.5 rounded-xl ${color.tailwind} transition-transform hover:scale-130`}
 
                 key={color.name}
 
