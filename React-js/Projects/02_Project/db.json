@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "2",
+      "name": "Eggs",
+      "checked": true
+    },
+    {
+      "id": "1752926201734",
+      "name": "Milk",
+      "checked": true
+    },
+    {
+      "id": "1752928241256",
+      "name": "Apple",
+      "checked": true
+    },
+    {
+      "id": "1752929360789",
+      "name": "Butter",
+      "checked": false
+    },
+    {
+      "id": "1752929371805",
+      "name": "Bread",
+      "checked": false
+    }
+  ]
+}
