@@ -1,1 +1,0 @@
-Let's get started with JDBC -> Java DataBast Connectivity.
